@@ -1,0 +1,2 @@
+# CurrentTimedRotatingFileHandler
+rewrited TimedRotatingFileHandler, CurrentTimedRotatingFileHandler
