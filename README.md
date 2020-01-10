@@ -1,5 +1,20 @@
 ### TimedRotatingFileHandler 改写
 
+#### 使用方法
+
+- 把 ctrf_handler.py 放到 python 安装目录下的 logging 目录下.
+  - 如: C:\Program Files (x86)\Python36\Lib\logging
+
+- 导入模块
+>
+```py
+from logging.ctrf_handler import CTRFHandler
+```
+
+- 使用
+  - CTRFHandler 与 TimedRotatingFileHandler 的使用方法完全相同
+
+
 #### TimedRotatingFileHandler 实现的原理
 
 - TimedRotatingFileHandler 的继承关系
@@ -73,5 +88,4 @@
 
 
 #### todo 如果日志文件已经存在, 以日志文件的修改时间来计算切换时间
-
 
